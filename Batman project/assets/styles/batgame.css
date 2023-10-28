@@ -1,0 +1,285 @@
+@import url(https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap);
+
+@font-face{
+  font-family: 'Rajdhani';
+  src:url(../fonts/Rajdhani-Medium.ttf),
+}
+@font-face {
+  font-family: 'Rajdhani';
+  src: url(../fonts/Rajdhani-Light.ttf);
+}
+@font-face {
+  font-family:  'Rajdhani';
+  src:url(../fonts/Rajdhani-Regular.ttf);
+}
+@font-face {
+  font-family: 'Rajdhani';
+  src: url(../fonts/Rajdhani-Bold.ttf);
+}
+@font-face{
+  font-family:'Space Grotesk' ;
+  src:url(../fonts/SpaceGrotesk-Bold.ttf),
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url(../fonts/SpaceGrotesk-Regular.ttf);
+}
+.up-bar{
+  border-top: #c4c4c41e 2px solid;
+  position: relative;
+  top: 132px;
+  left: 102px;
+  width: 85%;
+}
+.left-bar{
+  border-top: #c4c4c41e  2px solid;
+  position: relative;
+  right: 680px;
+  transform: rotate(90deg);
+}
+.right-bar{
+  border-top: #c4c4c41e 2px solid;
+  position: relative;
+  left: 650px;
+  transform: rotate(90deg);
+}
+.left-bar2{
+  border-top: #c4c4c41e  2px solid;
+  position: relative;
+  right: 680px;
+  transform: rotate(90deg);
+  top: 1300px;
+}
+
+.right-bar2{
+  border-top: #c4c4c41e  2px solid;
+  position: relative;
+  left: 650px;
+  transform: rotate(90deg);
+  top: 1300px;
+}
+.left-bar3{
+  border-top: #c4c4c41e  2px solid;
+  position: relative;
+  right: 680px;
+  transform: rotate(90deg);
+  top: 1800px;
+}
+
+.right-bar3{
+  border-top: #c4c4c41e  2px solid;
+  position: relative;
+  left: 650px;
+  transform: rotate(90deg);
+  top: 1800px;
+}
+.left-bar4{
+  border-top: #c4c4c41e  2px solid;
+  position: relative;
+  right: 680px;
+  transform: rotate(90deg);
+  top: 2300px;
+}
+
+.right-bar4{
+  border-top: #c4c4c41e 2px solid;
+  position: relative;
+  left: 650px;
+  transform: rotate(90deg);
+  top: 3000px;
+}
+.left-bar5{
+  border-top: #c4c4c41e 2px solid;
+  position: relative;
+  right: 680px;
+  transform: rotate(90deg);
+  top: 3000px;
+}
+
+.right-bar5{
+  border-top: #c4c4c41e 2px solid;
+  position: relative;
+  left: 650px;
+  transform: rotate(90deg);
+  top: 1000px;
+}
+.left-bar6{
+  border-top: #c4c4c41e 2px solid;
+  position: relative;
+  right: 680px;
+  transform: rotate(90deg);
+  top: 3000px;
+}
+.right-bar6{
+  border-top: #c4c4c41e  2px solid;
+  position: relative;
+  left: 650px;
+  transform: rotate(90deg);
+  top: 1000px;
+}
+.right-bar7{
+  border-top: #c4c4c41e  2px solid;
+  position: relative;
+  left: 650px;
+  transform: rotate(90deg);
+  top: 1500px;
+}
+
+body{
+  background: black;
+  color: white;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px; 
+  height: auto;
+  font-family: 'Space Grotesk';
+  font-weight: 300;
+  font-size: 18px;
+  width: 100%;
+}
+:root{
+  --yellow-color:#ffff00;
+  --yellow-light:#f8f184;
+  --blue-color:#19587d82;
+  --white-color:#ffffff;
+  --gray-color:#C4C4C4;
+  --gradient-white:#eddebf4b;
+  --gradient-red:#89000952;
+  --black-color:#000000;
+
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Space Grotesk', sans-serif;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+nav img:hover{
+  filter: invert(8%) sepia(86%) saturate(6756%) hue-rotate(357deg) brightness(108%) contrast(105%);
+}
+
+ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline;
+  justify-content: space-between;
+
+
+}
+
+ul a{
+  color: var(--white-color);
+  font-family: 'Rajdhani';
+  font-size: 36px;
+  font-weight: 100;
+  padding: 0 20px;
+  text-decoration: none;
+}
+ul a:hover{
+  color: var(--yellow-color);
+  text-decoration: underline;
+}
+.scroll{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  right: 85px;
+  top: 250px;
+}
+.scroll .social{
+    margin-top: 50px;
+}
+.scroll :hover{
+    filter: invert(8%) sepia(86%) saturate(6756%) hue-rotate(357deg) brightness(108%) contrast(105%);
+
+}
+
+.scroll .bat_flèche_2{
+    margin-top: 50px;
+}
+#hero{
+  background-image: url(../batgame/Illustrations-20231014T070105Z-001/Illustrations/Batgame_1.png);
+  background-position: top center ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 800px;
+}
+#hero .content h1{
+  padding: 200px 0;
+  font-family: 'Rajdhani';
+  font-weight: bold;
+  font-size: 50px;
+  text-transform:uppercase;
+  width: 30%;
+
+}
+.flèche_down{
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+#quiz .contenu{
+  margin-top: 200px;
+  padding-left: 150px;
+  align-items: center;
+}
+#quiz h2{
+  padding: 50px 100px;
+  text-align: center;
+  font-family:'Rajdhani' ;
+  font-size: 42px;
+  font-weight: 500;
+
+}
+#quiz button {
+  font-family:'Rajdhani' ;
+  font-size: 22px;
+  padding: 20px 20px;
+  margin-top: 150px;
+  margin-left: 250px;
+  background-image: linear-gradient(to right,#1b1a1acb,#b8680ebd);
+  width: 400px;
+}
+#quiz button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* css pour les quiz*/
+footer{
+  margin-top: 300px;
+}
+.wb_projet{
+  display:inline-flex;
+  font-size: 10px;
+  position: relative;
+  left: 300px;
+}
+.icon2{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  left: 400px;
+}
+.icon3{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: 400px;
+  top: -10px;
+}

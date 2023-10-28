@@ -1,0 +1,555 @@
+
+  @import url(https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap);
+
+  @font-face{
+    font-family: 'Rajdhani';
+    src:url(../fonts/Rajdhani-Medium.ttf),
+  }
+  @font-face {
+    font-family: 'Rajdhani';
+    src: url(../fonts/Rajdhani-Light.ttf);
+  }
+  @font-face {
+    font-family:  'Rajdhani';
+    src:url(../fonts/Rajdhani-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'Rajdhani';
+    src: url(../fonts/Rajdhani-Bold.ttf);
+  }
+  @font-face{
+    font-family:'Space Grotesk' ;
+    src:url(../fonts/SpaceGrotesk-Bold.ttf),
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url(../fonts/SpaceGrotesk-Regular.ttf);
+  }
+    
+.batman_personnage img,
+.nemesis_personnage img,
+.alliés_personnage img,
+.ctn_img img
+  {
+    width: 70%;
+    object-fit: contain;
+    object-position: bottom;
+}
+.up-bar{
+    border-top: #c4c4c41e 2px solid;
+    position: relative;
+    top: 132px;
+    left: 102px;
+    width: 85%;
+}
+.left-bar{
+    border-top: #c4c4c41e  2px solid;
+    position: relative;
+    right: 680px;
+    transform: rotate(90deg);
+}
+.right-bar{
+    border-top: #c4c4c41e 2px solid;
+    position: relative;
+    left: 650px;
+    transform: rotate(90deg);
+}
+.left-bar2{
+    border-top: #c4c4c41e  2px solid;
+    position: relative;
+    right: 680px;
+    transform: rotate(90deg);
+    top: 1300px;
+}
+
+.right-bar2{
+    border-top: #c4c4c41e  2px solid;
+    position: relative;
+    left: 650px;
+    transform: rotate(90deg);
+    top: 1300px;
+}
+.left-bar3{
+    border-top: #c4c4c41e  2px solid;
+    position: relative;
+    right: 680px;
+    transform: rotate(90deg);
+    top: 1800px;
+}
+
+.right-bar3{
+    border-top: #c4c4c41e  2px solid;
+    position: relative;
+    left: 650px;
+    transform: rotate(90deg);
+    top: 1800px;
+}
+.left-bar4{
+    border-top: #c4c4c41e  2px solid;
+    position: relative;
+    right: 680px;
+    transform: rotate(90deg);
+    top: 2300px;
+}
+
+.right-bar4{
+    border-top: #c4c4c41e 2px solid;
+    position: relative;
+    left: 650px;
+    transform: rotate(90deg);
+    top: 3000px;
+}
+.left-bar5{
+    border-top: #c4c4c41e 2px solid;
+    position: relative;
+    right: 680px;
+    transform: rotate(90deg);
+    top: 3000px;
+}
+
+.right-bar5{
+    border-top: #c4c4c41e 2px solid;
+    position: relative;
+    left: 650px;
+    transform: rotate(90deg);
+    top: 1000px;
+}
+.left-bar6{
+    border-top: #c4c4c41e 2px solid;
+    position: relative;
+    right: 680px;
+    transform: rotate(90deg);
+    top: 3000px;
+}
+.right-bar6{
+    border-top: #c4c4c41e  2px solid;
+    position: relative;
+    left: 650px;
+    transform: rotate(90deg);
+    top: 1000px;
+}
+.right-bar7{
+    border-top: #c4c4c41e  2px solid;
+    position: relative;
+    left: 650px;
+    transform: rotate(90deg);
+    top: 1500px;
+}
+
+body{
+    background: black;
+    color: white;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px; 
+    height: auto;
+    width: 100%;
+}
+:root{
+    --yellow-color:#ffff00;
+    --yellow-light:#f8f184;
+    --blue-color:#19587d82;
+    --white-color:#ffffff;
+    --gray-color:#C4C4C4;
+    --gradient-white:#eddebf4b;
+    --gradient-red:#89000952;
+    --black-color:#000000;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Rajdhani';
+    font-weight: 500;
+    font-size: 36px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+nav img:hover{
+    filter: invert(8%) sepia(86%) saturate(6756%) hue-rotate(357deg) brightness(108%) contrast(105%);
+}
+
+ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: var(--white-color);
+    font-family: 'Rajdhani';
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0 20px;
+    text-decoration: none;
+}
+ul a:hover{
+    color: var(--yellow-color);
+    text-decoration: underline;
+}
+
+#hero{
+    background-image: url(../illustrations/Bathome1.png);
+    background-position: top center ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 800px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 150px;
+    font-family:'Space Grotesk';
+    font-size: 22px;
+}
+#hero .titre{
+    margin: 30px 0;
+
+}
+.scroll{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  right: 85px;
+  top: 250px;
+}
+.scroll .social{
+    margin-top: 50px;
+}
+.scroll :hover{
+    filter: invert(8%) sepia(86%) saturate(6756%) hue-rotate(357deg) brightness(108%) contrast(105%);
+
+}
+
+.scroll .bat_flèche_2{
+    margin-top: 50px;
+}
+.btn {
+  background:linear-gradient(
+    80deg,var(--gradient-white),var(--gradient-red));
+  font-family:'Rajdhani' ;
+  font-size: 20px;
+  padding: 20px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  color:var(--white-color);
+  box-shadow: var(--black-color) 5px 5px 60px;
+  opacity: 40%;
+  font-weight: 500;
+}
+.btn:hover{
+    opacity: 100%;
+}
+
+.flèche_down{
+    display: block;
+    margin: 0 auto;
+}
+
+.batman_personnage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.batman_personnage:hover{
+    zoom: 105%;
+}
+.description{
+    font-family: 'Space Grotesk';
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 40px;
+    width:80%;
+
+}
+.sous_titre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Space Grotesk';
+    font-size: 12px;
+}
+h2{
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    font-weight:500 ;
+    text-align: center;
+}
+.nemesis_personnage{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 40px; 
+}
+.nemesis_personnage:hover{
+    zoom: 105%;
+}
+.logo_nemesis{
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+
+.alliés_personnage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.alliés_personnage:hover{
+    zoom:105%
+}
+.ctn_img{
+    width: 100%;
+    position: relative;
+    left: 50px;
+    
+}
+#multimedia button{
+    position: relative;
+    top: 200px;
+    background: none;
+    border: none;
+}
+
+#multimedia button.right{
+    float: right;
+    
+}
+.slider_multimedia{
+    display: flex;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.Bathome_ba1{
+    width: 100%;
+}
+.action{
+  padding: 15px;
+  background-image: linear-gradient(
+    to right,var(--gradient-white),var(--blue-color));
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.action .texte2 {
+    font-size: 12px;
+}
+.action .texte{
+    margin-top :10px; ;
+}
+.action .texte span {
+    color: var(--yellow-color);
+    font-weight: bold;
+}
+h3{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.action h4{
+    font-size: 14px;
+    font-family: 'Rajdhani';
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+#contact{
+    border: 1px solid white;
+    width: 1500px;
+    background-image: linear-gradient(
+        to right,var(--gradient-white),var(--blue-color));
+    height: 850px;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    right: 50px;
+    padding: 70px 0;
+}
+#contact .forme{
+    width: 50%;
+    margin: 0 auto ;
+}
+#form{
+    margin: 0 auto;
+    align-items: center;
+}
+#contact h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+    font-family: 'Rajdhani';
+    font-weight:bold;
+}
+#contact .titre2{
+    display: block;
+    margin: 25px 0;
+    font-family: 'Space Grotesk';
+    font-size: 22px;
+}
+#contact .forme input[type=email]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    width: 80%;
+    border-bottom: 2px solid rgb(155, 155, 155);
+    padding: 10px 0;
+    
+}
+#contact .menu_deroulant{
+    margin-top: 22px;
+    border-bottom: 2px solid rgb(155, 155, 155);
+    padding: 10px 0;
+}
+#contact .forme span.selection img{
+    transform: rotate(90deg);
+    width: 25px;
+    position: relative;
+    left: 90px;
+}
+#contact .forme .news{
+    margin-top: 22px;
+    border-bottom: 2px solid rgb(155, 155, 155);
+    padding: 10px 0;
+}
+::-webkit-input-placeholder{
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+}
+:-moz-placeholder{
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+}
+:-ms-input-placeholder{
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+}
+::placeholder{
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+}
+.btn_news{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.forme input[type=radio]{
+    opacity: 0;
+}
+.btn_news label{
+    border: 1px solid;
+    border-image:linear-gradient(
+        69deg,var(--white-color),var(--blue-color) ) 1;;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#contact .forme textarea{
+    display: block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    width: 80%;
+    border-bottom: 2px solid rgb(155, 155, 155);
+    padding: 10px 0;
+}
+#CONFIRMER{
+    background:linear-gradient(
+     80deg,var(--gradient-white),var(--gradient-red));
+    font-family:'Rajdhani' ;
+    font-size: 22px;
+    padding: 15px 0;
+    margin: 25px auto;
+    text-decoration: none;
+    color:var(--white-color);
+    box-shadow: var(--black-color) 5px 5px 60px;
+    opacity: 40%;
+    width: 230px;
+    display: block;
+    cursor: pointer;
+
+      
+}
+#CONFIRMER:hover{
+    opacity: 100%;
+}
+#pied{
+    text-align: center;
+}
+.icon_guillemets_1{
+    position: relative;
+    right: 500px;
+
+}
+.icon_guillemets_2{
+    position: relative;
+    left: 500px;
+}
+.cit1{
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    font-weight: bold;
+}
+.auteur{
+    font-family: 'Space Grotesk';
+    font-size: 12px;
+    padding-top: 50px;
+}
+
+.point{
+    color: #19587D;
+}
+.wb_projet{
+    display:inline-flex;
+    font-size: 10px;
+    position: relative;
+    left: 300px;
+}
+.icon2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 400px;
+}
+.icon3{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    top: -10px;
+}
+.Bathome12{
+    position: relative;
+    top: -4050px;
+    left: 1050px;
+}
+
+.hr{
+    width:500px; 
+    position:relative;
+    left: -350px;
+}
