@@ -273,6 +273,10 @@ button#submit{
   padding-left: 10px;
   padding-bottom: 10px;
 }
+.content{
+  display: flex;
+  margin-right: 300px;
+}
 
 
 footer{
